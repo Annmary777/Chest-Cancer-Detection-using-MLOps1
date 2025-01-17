@@ -5,6 +5,7 @@ import tensorflow as tf
 from ChestCancerClassifier.entity.config_entity import PrepareBaseModelConfig
 from pathlib import Path
 
+
 class PrepareBaseModel:
     def __init__(self, config: PrepareBaseModelConfig):
         self.config = config
@@ -19,8 +20,7 @@ class PrepareBaseModel:
 
         self.save_model(path=self.config.base_model_path, model=self.model)
         print(self.config)
-
-
+    
     
     @staticmethod
     def _prepare_full_model(model, classes, freeze_all, freeze_till, learning_rate):
