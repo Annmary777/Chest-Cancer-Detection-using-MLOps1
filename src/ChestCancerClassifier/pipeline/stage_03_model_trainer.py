@@ -1,11 +1,14 @@
+import sys
+import os
+
+# Add the `src` directory to the Python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
+
 from ChestCancerClassifier.config.configuration import ConfigurationManager
 from ChestCancerClassifier.components.model_trainer import Training
 from ChestCancerClassifier import logger
 
-
 STAGE_NAME = "Training"
-
-
 
 class ModelTrainingPipeline:
     def __init__(self):
@@ -19,11 +22,8 @@ class ModelTrainingPipeline:
         training.train_valid_generator()
         training.train()
 
-
-
 if __name__ == '__main__':
     try:
-        logger.info(f"*******************")
         logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
         obj = ModelTrainingPipeline()
         obj.main()
@@ -31,4 +31,3 @@ if __name__ == '__main__':
     except Exception as e:
         logger.exception(e)
         raise e
-  

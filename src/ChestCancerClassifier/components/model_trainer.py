@@ -1,25 +1,33 @@
 import os
-import urllib.request as request
-from zipfile import ZipFile
+import sys
 import tensorflow as tf
-import time
-from ChestCancerClassifier.entity.config_entity import TrainingConfig
+from zipfile import ZipFile
 from pathlib import Path
+import urllib.request as request
+import time
+
+# Add the `src` directory to the Python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
+print("Python Path:", sys.path)  # Print Python's import path for debugging
+
+# Ensure the required modules are imported correctly
+from box.exceptions import BoxValueError
+from ChestCancerClassifier.entity.config_entity import TrainingConfig  # Import the necessary config entity
 
 class Training:
     def __init__(self, config: TrainingConfig):
         self.config = config
 
-    
     def get_base_model(self):
+        """Loads the base model from the given path"""
         self.model = tf.keras.models.load_model(
             self.config.updated_base_model_path
         )
 
     def train_valid_generator(self):
-
+        """Creates training and validation data generators"""
         datagenerator_kwargs = dict(
-            rescale = 1./255,
+            rescale=1./255,
             validation_split=0.20
         )
 
@@ -60,15 +68,13 @@ class Training:
             **dataflow_kwargs
         )
 
-    
     @staticmethod
     def save_model(path: Path, model: tf.keras.Model):
+        """Saves the model to the specified path"""
         model.save(path)
 
-
-
-    
     def train(self):
+        """Trains the model and saves it to the configured path"""
         self.steps_per_epoch = self.train_generator.samples // self.train_generator.batch_size
         self.validation_steps = self.valid_generator.samples // self.valid_generator.batch_size
 
@@ -84,3 +90,27 @@ class Training:
             path=self.config.trained_model_path,
             model=self.model
         )
+
+
+if __name__ == "__main__":
+    # Example usage (assuming config is properly passed)
+    try:
+        # Assume `config` is created from the ConfigurationManager in the pipeline
+        config = TrainingConfig(
+            root_dir="artifacts",
+            trained_model_path=Path("artifacts/model.h5"),
+            updated_base_model_path=Path("artifacts/base_model.h5"),
+            training_data=Path("data"),
+            params_epochs=10,
+            params_batch_size=32,
+            params_is_augmentation=True,
+            params_image_size=[224, 224, 3]
+        )
+
+        trainer = Training(config=config)
+        trainer.get_base_model()
+        trainer.train_valid_generator()
+        trainer.train()
+
+    except Exception as e:
+        print(f"Error: {e}")
