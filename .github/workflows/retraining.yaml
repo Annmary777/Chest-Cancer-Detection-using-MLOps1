@@ -1,0 +1,57 @@
+name: Retrain Model
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  retrain:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.8"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install dvc[all] mlflow
+
+      - name: Pull DVC data
+        run: dvc pull
+
+      - name: Check Incorrect Predictions Threshold
+        id: check_threshold
+        run: |
+          python -c "
+import json
+with open('incorrect_predictions.json', 'r') as f:
+    data = json.load(f)
+if len(data) > 5:
+    print('::set-output name=trigger_retrain::true')
+else:
+    print('::set-output name=trigger_retrain::false')
+"
+        shell: bash
+
+      - name: Trigger Retraining
+        if: steps.check_threshold.outputs.trigger_retrain == 'true'
+        run: dvc repro feedback_retraining
+
+      - name: Push Retrained Artifacts
+        if: steps.check_threshold.outputs.trigger_retrain == 'true'
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "Push retrained model and updated artifacts"
+          git push
