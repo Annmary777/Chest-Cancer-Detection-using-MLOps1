@@ -46,14 +46,16 @@ stages:
     params:
       - IMAGE_SIZE
       - BATCH_SIZE
+    outs:
+      - incorrect_predictions.json
     metrics:
       - scores.json:
           cache: false
 
   feedback_retraining:
-    cmd: python src/ChestCancerClassifier/pipeline/stage_05_feedback_retrain.py
+    cmd: python trigger_retraining.py
     deps:
-      - src/ChestCancerClassifier/pipeline/stage_05_feedback_retrain.py
+      - trigger_retraining.py
       - incorrect_predictions.json
       - artifacts/training/model.h5
     outs:

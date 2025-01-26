@@ -1169,3 +1169,610 @@ x==========x]
 [2025-01-08 20:49:26,012: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2025-01-24 21:08:07,317: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-24 21:08:07,320: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-24 21:08:10,250: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2025-01-24 21:08:10,286: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-24 21:08:10,314: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-24 21:08:10,317: INFO: common: created directory at: artifacts]
+[2025-01-24 21:08:10,318: INFO: common: created directory at: artifacts\training]
+[2025-01-24 22:03:43,337: INFO: stage_03_model_trainer: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-01-24 22:03:56,842: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-24 22:03:56,842: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-24 22:04:00,054: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-01-24 22:04:00,058: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-24 22:04:00,069: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-24 22:04:00,070: INFO: common: created directory at: artifacts]
+[2025-01-24 22:06:33,442: INFO: common: json file saved at: scores.json]
+[2025-01-24 22:06:33,445: INFO: common: json file saved at: scores.json]
+[2025-01-24 22:06:33,446: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-01-24 22:37:11,888: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-24 22:37:11,888: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-24 22:40:24,201: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-24 22:40:24,201: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-24 22:40:27,370: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2025-01-24 22:40:27,372: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-24 22:40:27,376: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-24 22:40:27,378: INFO: common: created directory at: artifacts]
+[2025-01-24 22:40:27,379: INFO: common: created directory at: artifacts\training]
+[2025-01-24 22:40:37,966: INFO: _client: HTTP Request: POST https://dagshub.com/login/oauth/middleman "HTTP/1.1 200 OK"]
+[2025-01-24 22:40:39,197: INFO: _client: HTTP Request: POST https://dagshub.com/login/oauth/access_token "HTTP/1.1 200 OK"]
+[2025-01-24 22:40:40,489: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-24 22:40:40,503: INFO: helpers: Accessing as Annmary777]
+[2025-01-24 22:40:41,548: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Annmary777/Chest-Cancer-Detection-using-MLOps1 "HTTP/1.1 200 OK"]
+[2025-01-24 22:40:42,488: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-24 22:40:42,828: INFO: helpers: Initialized MLflow to track repo "Annmary777/Chest-Cancer-Detection-using-MLOps1"]
+[2025-01-24 22:40:42,830: INFO: helpers: Repository Annmary777/Chest-Cancer-Detection-using-MLOps1 initialized!]
+[2025-01-24 23:30:03,077: INFO: stage_03_model_trainer: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-01-24 23:39:52,116: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-24 23:39:52,117: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-24 23:39:57,626: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-01-24 23:39:57,630: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-24 23:39:57,633: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-24 23:39:57,635: INFO: common: created directory at: artifacts]
+[2025-01-24 23:39:58,531: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-24 23:39:58,553: INFO: helpers: Accessing as Annmary777]
+[2025-01-24 23:39:59,467: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Annmary777/Chest-Cancer-Detection-using-MLOps1 "HTTP/1.1 200 OK"]
+[2025-01-24 23:40:00,453: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-24 23:40:00,460: INFO: helpers: Initialized MLflow to track repo "Annmary777/Chest-Cancer-Detection-using-MLOps1"]
+[2025-01-24 23:40:00,462: INFO: helpers: Repository Annmary777/Chest-Cancer-Detection-using-MLOps1 initialized!]
+[2025-01-24 23:42:05,091: INFO: common: json file saved at: scores.json]
+[2025-01-24 23:42:05,111: INFO: common: json file saved at: scores.json]
+[2025-01-24 23:42:05,720: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-01-24 23:54:04,402: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-24 23:54:04,403: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-24 23:54:08,833: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2025-01-24 23:54:08,838: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-24 23:54:08,844: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-24 23:54:08,853: INFO: common: created directory at: artifacts]
+[2025-01-24 23:54:08,854: INFO: common: created directory at: artifacts\training]
+[2025-01-24 23:54:09,687: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-24 23:54:09,710: INFO: helpers: Accessing as Annmary777]
+[2025-01-24 23:54:10,459: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Annmary777/Chest-Cancer-Detection-using-MLOps1 "HTTP/1.1 200 OK"]
+[2025-01-24 23:54:11,166: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-24 23:54:11,170: INFO: helpers: Initialized MLflow to track repo "Annmary777/Chest-Cancer-Detection-using-MLOps1"]
+[2025-01-24 23:54:11,172: INFO: helpers: Repository Annmary777/Chest-Cancer-Detection-using-MLOps1 initialized!]
+[2025-01-24 23:57:18,545: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-24 23:57:18,546: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-24 23:57:23,156: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2025-01-24 23:57:23,159: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-24 23:57:23,161: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-24 23:57:23,162: INFO: common: created directory at: artifacts]
+[2025-01-24 23:57:23,163: INFO: common: created directory at: artifacts\training]
+[2025-01-24 23:57:23,850: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-24 23:57:23,867: INFO: helpers: Accessing as Annmary777]
+[2025-01-24 23:57:24,746: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Annmary777/Chest-Cancer-Detection-using-MLOps1 "HTTP/1.1 200 OK"]
+[2025-01-24 23:57:25,460: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-24 23:57:25,466: INFO: helpers: Initialized MLflow to track repo "Annmary777/Chest-Cancer-Detection-using-MLOps1"]
+[2025-01-24 23:57:25,468: INFO: helpers: Repository Annmary777/Chest-Cancer-Detection-using-MLOps1 initialized!]
+[2025-01-25 00:00:40,940: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-25 00:00:40,941: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-25 00:00:46,447: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2025-01-25 00:00:46,452: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-25 00:00:46,455: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-25 00:00:46,456: INFO: common: created directory at: artifacts]
+[2025-01-25 00:00:46,457: INFO: common: created directory at: artifacts\training]
+[2025-01-25 00:00:47,172: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-25 00:00:47,181: INFO: helpers: Accessing as Annmary777]
+[2025-01-25 00:00:47,886: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Annmary777/Chest-Cancer-Detection-using-MLOps1 "HTTP/1.1 200 OK"]
+[2025-01-25 00:00:48,627: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-25 00:00:48,633: INFO: helpers: Initialized MLflow to track repo "Annmary777/Chest-Cancer-Detection-using-MLOps1"]
+[2025-01-25 00:00:48,636: INFO: helpers: Repository Annmary777/Chest-Cancer-Detection-using-MLOps1 initialized!]
+[2025-01-25 00:05:25,073: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-25 00:05:25,074: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-25 00:05:29,935: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2025-01-25 00:05:29,937: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-25 00:05:29,941: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-25 00:05:29,944: INFO: common: created directory at: artifacts]
+[2025-01-25 00:05:29,944: INFO: common: created directory at: artifacts\training]
+[2025-01-25 00:05:30,897: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-25 00:05:30,916: INFO: helpers: Accessing as Annmary777]
+[2025-01-25 00:05:31,604: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Annmary777/Chest-Cancer-Detection-using-MLOps1 "HTTP/1.1 200 OK"]
+[2025-01-25 00:05:32,376: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-25 00:05:32,381: INFO: helpers: Initialized MLflow to track repo "Annmary777/Chest-Cancer-Detection-using-MLOps1"]
+[2025-01-25 00:05:32,384: INFO: helpers: Repository Annmary777/Chest-Cancer-Detection-using-MLOps1 initialized!]
+[2025-01-25 00:07:59,026: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-25 00:07:59,028: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-25 00:08:03,555: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2025-01-25 00:08:03,557: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-25 00:08:03,562: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-25 00:08:03,564: INFO: common: created directory at: artifacts]
+[2025-01-25 00:08:03,566: INFO: common: created directory at: artifacts\training]
+[2025-01-25 00:08:04,440: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-25 00:08:04,456: INFO: helpers: Accessing as Annmary777]
+[2025-01-25 00:08:05,177: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Annmary777/Chest-Cancer-Detection-using-MLOps1 "HTTP/1.1 200 OK"]
+[2025-01-25 00:08:06,111: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-25 00:08:06,119: INFO: helpers: Initialized MLflow to track repo "Annmary777/Chest-Cancer-Detection-using-MLOps1"]
+[2025-01-25 00:08:06,120: INFO: helpers: Repository Annmary777/Chest-Cancer-Detection-using-MLOps1 initialized!]
+[2025-01-25 00:45:46,761: ERROR: stage_03_model_trainer: INVALID_PARAMETER_VALUE: Response: {'error_code': 'INVALID_PARAMETER_VALUE'}]
+Traceback (most recent call last):
+  File "e:/Desktop/Fall Detection MLOps Project/src/ChestCancerClassifier/pipeline/stage_03_model_trainer.py", line 63, in <module>
+    obj.main()
+  File "e:/Desktop/Fall Detection MLOps Project/src/ChestCancerClassifier/pipeline/stage_03_model_trainer.py", line 56, in main
+    mlflow.log_metric(metric_name, metric_value)
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\mlflow\tracking\fluent.py", line 168, in __exit__
+    end_run(RunStatus.to_string(status))
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\mlflow\tracking\fluent.py", line 393, in end_run
+    MlflowClient().set_terminated(run.info.run_id, status)
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\mlflow\tracking\client.py", line 1538, in set_terminated
+    self._tracking_client.set_terminated(run_id, status, end_time)
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 485, in set_terminated
+    self.store.update_run_info(
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\mlflow\store\tracking\rest_store.py", line 148, in update_run_info
+    response_proto = self._call_endpoint(UpdateRun, req_body)
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\mlflow\store\tracking\rest_store.py", line 56, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\mlflow\utils\rest_utils.py", line 281, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\mlflow\utils\rest_utils.py", line 207, in verify_rest_response
+    raise RestException(json.loads(response.text))
+mlflow.exceptions.RestException: INVALID_PARAMETER_VALUE: Response: {'error_code': 'INVALID_PARAMETER_VALUE'}
+[2025-01-25 00:56:43,225: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-25 00:56:43,226: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-25 00:56:46,738: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2025-01-25 00:56:46,749: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-25 00:56:46,767: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-25 00:56:46,768: INFO: common: created directory at: artifacts]
+[2025-01-25 00:56:46,769: INFO: common: created directory at: artifacts\training]
+[2025-01-25 00:56:47,522: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-25 00:56:47,533: INFO: helpers: Accessing as Annmary777]
+[2025-01-25 00:56:48,101: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Annmary777/Fall-Detection "HTTP/1.1 404 Not Found"]
+[2025-01-25 00:56:48,104: INFO: helpers: Repository Fall-Detection doesn't exist, creating it under current user.]
+[2025-01-25 00:56:48,898: INFO: _client: HTTP Request: POST https://dagshub.com/api/v1/user/repos "HTTP/1.1 201 Created"]
+[2025-01-25 00:56:49,452: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-25 00:56:49,464: INFO: helpers: Initialized MLflow to track repo "Annmary777/Fall-Detection"]
+[2025-01-25 00:56:49,465: INFO: helpers: Repository Annmary777/Fall-Detection initialized!]
+[2025-01-25 20:56:04,288: WARNING: connectionpool: Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021EF7A055B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /Annmary777/Fall-Detection.mlflow/api/2.0/mlflow/runs/update]
+[2025-01-25 20:56:20,323: WARNING: connectionpool: Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021E822EBA90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /Annmary777/Fall-Detection.mlflow/api/2.0/mlflow/runs/update]
+[2025-01-25 20:56:40,358: WARNING: connectionpool: Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021E822EBEB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /Annmary777/Fall-Detection.mlflow/api/2.0/mlflow/runs/update]
+[2025-01-25 20:57:40,210: WARNING: connectionpool: Retrying (Retry(total=1, connect=2, read=5, redirect=5, status=5)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1135)'))': /Annmary777/Fall-Detection.mlflow/api/2.0/mlflow/runs/update]
+[2025-01-25 20:58:45,315: WARNING: connectionpool: Retrying (Retry(total=0, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021E822EBFD0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond')': /Annmary777/Fall-Detection.mlflow/api/2.0/mlflow/runs/update]
+[2025-01-25 20:58:45,324: ERROR: stage_03_model_trainer: API request to https://dagshub.com/Annmary777/Fall-Detection.mlflow/api/2.0/mlflow/runs/update failed with exception HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /Annmary777/Fall-Detection.mlflow/api/2.0/mlflow/runs/update (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021E822F91C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))]
+Traceback (most recent call last):
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\urllib3\connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\urllib3\connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\urllib3\connectionpool.py", line 1060, in _validate_conn
+    conn.connect()
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\urllib3\connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000021E822F91C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\requests\adapters.py", line 589, in send
+    resp = conn.urlopen(
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\urllib3\connectionpool.py", line 829, in urlopen
+    return self.urlopen(
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\urllib3\connectionpool.py", line 829, in urlopen
+    return self.urlopen(
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\urllib3\connectionpool.py", line 829, in urlopen
+    return self.urlopen(
+  [Previous line repeated 2 more times]
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\urllib3\connectionpool.py", line 801, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\urllib3\util\retry.py", line 594, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /Annmary777/Fall-Detection.mlflow/api/2.0/mlflow/runs/update (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021E822F91C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\mlflow\utils\rest_utils.py", line 167, in http_request
+    return _get_http_response_with_retries(
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\mlflow\utils\rest_utils.py", line 98, in _get_http_response_with_retries
+    return session.request(method, url, **kwargs)
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\requests\adapters.py", line 622, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /Annmary777/Fall-Detection.mlflow/api/2.0/mlflow/runs/update (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021E822F91C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "e:/Desktop/Fall Detection MLOps Project/src/ChestCancerClassifier/pipeline/stage_03_model_trainer.py", line 66, in <module>
+    obj.main()
+  File "e:/Desktop/Fall Detection MLOps Project/src/ChestCancerClassifier/pipeline/stage_03_model_trainer.py", line 59, in main
+    mlflow.log_param(metric_name, str(metric_value))
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\mlflow\tracking\fluent.py", line 168, in __exit__
+    end_run(RunStatus.to_string(status))
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\mlflow\tracking\fluent.py", line 393, in end_run
+    MlflowClient().set_terminated(run.info.run_id, status)
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\mlflow\tracking\client.py", line 1538, in set_terminated
+    self._tracking_client.set_terminated(run_id, status, end_time)
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 485, in set_terminated
+    self.store.update_run_info(
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\mlflow\store\tracking\rest_store.py", line 148, in update_run_info
+    response_proto = self._call_endpoint(UpdateRun, req_body)
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\mlflow\store\tracking\rest_store.py", line 56, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\mlflow\utils\rest_utils.py", line 278, in call_endpoint
+    response = http_request(
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\mlflow\utils\rest_utils.py", line 185, in http_request
+    raise MlflowException(f"API request to {url} failed with exception {e}")
+mlflow.exceptions.MlflowException: API request to https://dagshub.com/Annmary777/Fall-Detection.mlflow/api/2.0/mlflow/runs/update failed with exception HTTPSConnectionPool(host='dagshub.com', port=443): Max retries exceeded with url: /Annmary777/Fall-Detection.mlflow/api/2.0/mlflow/runs/update (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021E822F91C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2025-01-25 22:11:27,278: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-25 22:11:27,279: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-25 22:11:30,355: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2025-01-25 22:11:30,355: INFO: stage_03_model_trainer: Loading configuration...]
+[2025-01-25 22:11:30,372: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-25 22:11:30,386: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-25 22:11:30,388: INFO: common: created directory at: artifacts]
+[2025-01-25 22:11:30,388: INFO: common: created directory at: artifacts\training]
+[2025-01-25 22:11:30,388: INFO: stage_03_model_trainer: Initializing Training component...]
+[2025-01-25 22:11:30,388: INFO: stage_03_model_trainer: Initializing DagsHub MLflow integration...]
+[2025-01-25 22:11:30,389: ERROR: stage_03_model_trainer: init() got an unexpected keyword argument 'token']
+Traceback (most recent call last):
+  File "e:/Desktop/Fall Detection MLOps Project/src/ChestCancerClassifier/pipeline/stage_03_model_trainer.py", line 106, in <module>
+    obj.main()
+  File "e:/Desktop/Fall Detection MLOps Project/src/ChestCancerClassifier/pipeline/stage_03_model_trainer.py", line 54, in main
+    dagshub.init(
+TypeError: init() got an unexpected keyword argument 'token'
+[2025-01-25 22:14:07,119: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-25 22:14:07,120: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-25 22:14:10,430: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2025-01-25 22:14:10,430: INFO: stage_03_model_trainer: Loading configuration...]
+[2025-01-25 22:14:10,434: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-25 22:14:10,437: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-25 22:14:10,439: INFO: common: created directory at: artifacts]
+[2025-01-25 22:14:10,439: INFO: common: created directory at: artifacts\training]
+[2025-01-25 22:14:10,439: INFO: stage_03_model_trainer: Initializing Training component...]
+[2025-01-25 22:14:11,849: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-25 22:14:11,875: INFO: helpers: Accessing as Annmary777]
+[2025-01-25 22:14:12,759: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Annmary777/Fall-Detection "HTTP/1.1 200 OK"]
+[2025-01-25 22:14:13,597: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-25 22:14:13,604: INFO: helpers: Initialized MLflow to track repo "Annmary777/Fall-Detection"]
+[2025-01-25 22:14:13,606: INFO: helpers: Repository Annmary777/Fall-Detection initialized!]
+[2025-01-25 22:14:13,606: INFO: stage_03_model_trainer: Starting MLflow run...]
+[2025-01-25 22:14:14,767: INFO: stage_03_model_trainer: Logging training parameters...]
+[2025-01-25 22:14:17,098: INFO: stage_03_model_trainer: Executing training steps...]
+[2025-01-25 22:14:18,308: INFO: stage_03_model_trainer: Training the model...]
+[2025-01-25 22:53:13,620: INFO: stage_03_model_trainer: Logging metrics...]
+[2025-01-25 22:53:13,632: INFO: stage_03_model_trainer: Logging the trained model to MLflow...]
+[2025-01-25 22:53:14,412: ERROR: stage_03_model_trainer: log_model() got an unexpected keyword argument 'tf_model']
+Traceback (most recent call last):
+  File "e:/Desktop/Fall Detection MLOps Project/src/ChestCancerClassifier/pipeline/stage_03_model_trainer.py", line 99, in <module>
+    obj.main()
+  File "e:/Desktop/Fall Detection MLOps Project/src/ChestCancerClassifier/pipeline/stage_03_model_trainer.py", line 88, in main
+    mlflow.tensorflow.log_model(
+TypeError: log_model() got an unexpected keyword argument 'tf_model'
+[2025-01-25 23:12:39,012: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-25 23:12:39,015: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-25 23:12:43,209: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2025-01-25 23:12:43,210: INFO: stage_03_model_trainer: Loading configuration...]
+[2025-01-25 23:12:43,212: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-25 23:12:43,216: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-25 23:12:43,218: INFO: common: created directory at: artifacts]
+[2025-01-25 23:12:43,218: INFO: common: created directory at: artifacts\training]
+[2025-01-25 23:12:43,219: INFO: stage_03_model_trainer: Initializing Training component...]
+[2025-01-25 23:12:44,074: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-25 23:12:44,083: INFO: helpers: Accessing as Annmary777]
+[2025-01-25 23:12:44,885: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Annmary777/Fall-Detection "HTTP/1.1 200 OK"]
+[2025-01-25 23:12:45,605: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-25 23:12:45,608: INFO: helpers: Initialized MLflow to track repo "Annmary777/Fall-Detection"]
+[2025-01-25 23:12:45,610: INFO: helpers: Repository Annmary777/Fall-Detection initialized!]
+[2025-01-25 23:12:45,610: INFO: stage_03_model_trainer: Starting MLflow run...]
+[2025-01-25 23:12:46,623: INFO: stage_03_model_trainer: Logging training parameters...]
+[2025-01-25 23:12:48,476: INFO: stage_03_model_trainer: Executing training steps...]
+[2025-01-25 23:12:49,408: INFO: stage_03_model_trainer: Training the model...]
+[2025-01-25 23:32:05,301: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-25 23:32:05,303: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-25 23:32:09,015: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2025-01-25 23:32:09,016: INFO: stage_03_model_trainer: Loading configuration...]
+[2025-01-25 23:32:09,018: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-25 23:32:09,022: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-25 23:32:09,024: INFO: common: created directory at: artifacts]
+[2025-01-25 23:32:09,025: INFO: common: created directory at: artifacts\training]
+[2025-01-25 23:32:09,025: ERROR: stage_03_model_trainer: cannot assign to field 'params_epochs']
+Traceback (most recent call last):
+  File "e:/Desktop/Fall Detection MLOps Project/src/ChestCancerClassifier/pipeline/stage_03_model_trainer.py", line 110, in <module>
+    obj.main()
+  File "e:/Desktop/Fall Detection MLOps Project/src/ChestCancerClassifier/pipeline/stage_03_model_trainer.py", line 43, in main
+    training_config.params_epochs = 1
+  File "<string>", line 4, in __setattr__
+dataclasses.FrozenInstanceError: cannot assign to field 'params_epochs'
+[2025-01-25 23:49:58,047: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-25 23:49:58,049: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-25 23:50:01,864: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2025-01-25 23:50:01,865: INFO: stage_03_model_trainer: Loading configuration...]
+[2025-01-25 23:50:01,867: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-25 23:50:01,872: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-25 23:50:01,873: INFO: common: created directory at: artifacts]
+[2025-01-25 23:50:01,874: INFO: common: created directory at: artifacts\training]
+[2025-01-25 23:50:01,875: INFO: stage_03_model_trainer: Initializing Training component...]
+[2025-01-25 23:50:02,549: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-25 23:50:02,558: INFO: helpers: Accessing as Annmary777]
+[2025-01-25 23:50:03,254: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Annmary777/Fall-Detection "HTTP/1.1 200 OK"]
+[2025-01-25 23:50:03,995: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-25 23:50:03,997: INFO: helpers: Initialized MLflow to track repo "Annmary777/Fall-Detection"]
+[2025-01-25 23:50:03,999: INFO: helpers: Repository Annmary777/Fall-Detection initialized!]
+[2025-01-25 23:50:03,999: INFO: stage_03_model_trainer: Starting MLflow run...]
+[2025-01-25 23:50:04,845: INFO: stage_03_model_trainer: Logging training parameters...]
+[2025-01-25 23:50:07,854: INFO: stage_03_model_trainer: Executing training steps...]
+[2025-01-25 23:50:08,774: INFO: stage_03_model_trainer: Training the model...]
+[2025-01-25 23:50:36,779: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-25 23:50:36,780: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-25 23:50:39,379: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2025-01-25 23:50:39,380: INFO: stage_03_model_trainer: Loading configuration...]
+[2025-01-25 23:50:39,382: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-25 23:50:39,393: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-25 23:50:39,394: INFO: common: created directory at: artifacts]
+[2025-01-25 23:50:39,395: INFO: common: created directory at: artifacts\training]
+[2025-01-25 23:50:39,395: INFO: stage_03_model_trainer: Initializing Training component...]
+[2025-01-25 23:50:40,038: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-25 23:50:40,046: INFO: helpers: Accessing as Annmary777]
+[2025-01-25 23:50:40,751: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Annmary777/Fall-Detection "HTTP/1.1 200 OK"]
+[2025-01-25 23:50:41,484: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-25 23:50:41,486: INFO: helpers: Initialized MLflow to track repo "Annmary777/Fall-Detection"]
+[2025-01-25 23:50:41,487: INFO: helpers: Repository Annmary777/Fall-Detection initialized!]
+[2025-01-25 23:50:41,487: INFO: stage_03_model_trainer: Starting MLflow run...]
+[2025-01-25 23:50:42,316: INFO: stage_03_model_trainer: Logging training parameters...]
+[2025-01-25 23:50:44,613: INFO: stage_03_model_trainer: Executing training steps...]
+[2025-01-25 23:50:45,059: INFO: stage_03_model_trainer: Training the model...]
+[2025-01-26 00:04:24,135: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-26 00:04:24,136: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-26 00:04:27,184: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-01-26 00:04:27,185: INFO: stage_04_model_evaluation: Loading evaluation configuration...]
+[2025-01-26 00:04:27,189: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-26 00:04:27,192: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-26 00:04:27,193: INFO: common: created directory at: artifacts]
+[2025-01-26 00:04:28,036: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-26 00:04:28,045: INFO: helpers: Accessing as Annmary777]
+[2025-01-26 00:04:28,821: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Annmary777/Chest-Cancer-Detection-using-MLOps1 "HTTP/1.1 200 OK"]
+[2025-01-26 00:04:29,578: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-26 00:04:29,581: INFO: helpers: Initialized MLflow to track repo "Annmary777/Chest-Cancer-Detection-using-MLOps1"]
+[2025-01-26 00:04:29,583: INFO: helpers: Repository Annmary777/Chest-Cancer-Detection-using-MLOps1 initialized!]
+[2025-01-26 00:04:29,583: INFO: stage_04_model_evaluation: Starting MLflow run...]
+[2025-01-26 00:04:30,428: INFO: stage_04_model_evaluation: Logging evaluation parameters...]
+[2025-01-26 00:04:31,275: INFO: stage_04_model_evaluation: Running evaluation...]
+[2025-01-26 00:06:49,223: INFO: common: json file saved at: scores.json]
+[2025-01-26 00:06:49,224: INFO: stage_04_model_evaluation: Saving evaluation scores...]
+[2025-01-26 00:06:49,225: INFO: common: json file saved at: scores.json]
+[2025-01-26 00:06:49,226: INFO: stage_04_model_evaluation: Logging metrics to MLflow...]
+[2025-01-26 00:06:49,765: INFO: stage_04_model_evaluation: Evaluation run completed and logged successfully.]
+[2025-01-26 00:06:49,767: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-01-26 00:09:46,502: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-26 00:09:46,503: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-26 00:09:48,933: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-01-26 00:09:48,934: INFO: stage_04_model_evaluation: Loading evaluation configuration...]
+[2025-01-26 00:09:48,936: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-26 00:09:48,938: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-26 00:09:48,939: INFO: common: created directory at: artifacts]
+[2025-01-26 00:09:49,725: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-26 00:09:49,730: INFO: helpers: Accessing as Annmary777]
+[2025-01-26 00:09:50,412: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Annmary777/Fall-Detection "HTTP/1.1 200 OK"]
+[2025-01-26 00:09:51,144: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-26 00:09:51,149: INFO: helpers: Initialized MLflow to track repo "Annmary777/Fall-Detection"]
+[2025-01-26 00:09:51,151: INFO: helpers: Repository Annmary777/Fall-Detection initialized!]
+[2025-01-26 00:09:51,151: INFO: stage_04_model_evaluation: Starting MLflow run...]
+[2025-01-26 00:09:52,008: INFO: stage_04_model_evaluation: Logging evaluation parameters...]
+[2025-01-26 00:09:52,874: INFO: stage_04_model_evaluation: Running evaluation...]
+[2025-01-26 00:11:43,621: INFO: common: json file saved at: scores.json]
+[2025-01-26 00:11:43,621: INFO: stage_04_model_evaluation: Saving evaluation scores...]
+[2025-01-26 00:11:43,623: INFO: common: json file saved at: scores.json]
+[2025-01-26 00:11:43,623: INFO: stage_04_model_evaluation: Logging metrics to MLflow...]
+[2025-01-26 00:11:44,081: INFO: stage_04_model_evaluation: Evaluation run completed and logged successfully.]
+[2025-01-26 00:11:44,081: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-01-26 00:15:56,997: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-26 00:15:56,997: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-26 00:15:59,133: INFO: stage_03_model_trainer: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-01-26 00:15:59,134: INFO: stage_03_model_trainer: Loading evaluation configuration...]
+[2025-01-26 00:15:59,136: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-26 00:15:59,138: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-26 00:15:59,138: INFO: common: created directory at: artifacts]
+[2025-01-26 00:15:59,970: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-26 00:15:59,976: INFO: helpers: Accessing as Annmary777]
+[2025-01-26 00:16:00,771: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Annmary777/Chest-Cancer-Detection-using-MLOps1 "HTTP/1.1 200 OK"]
+[2025-01-26 00:16:01,411: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-26 00:16:01,414: INFO: helpers: Initialized MLflow to track repo "Annmary777/Chest-Cancer-Detection-using-MLOps1"]
+[2025-01-26 00:16:01,415: INFO: helpers: Repository Annmary777/Chest-Cancer-Detection-using-MLOps1 initialized!]
+[2025-01-26 00:16:01,415: INFO: stage_03_model_trainer: Starting MLflow run...]
+[2025-01-26 00:16:02,413: INFO: stage_03_model_trainer: Logging evaluation parameters...]
+[2025-01-26 00:16:03,217: INFO: stage_03_model_trainer: Running evaluation...]
+[2025-01-26 00:17:41,956: INFO: common: json file saved at: scores.json]
+[2025-01-26 00:17:41,957: INFO: stage_03_model_trainer: Evaluation results: None]
+[2025-01-26 00:17:41,957: INFO: stage_03_model_trainer: Saving evaluation scores...]
+[2025-01-26 00:17:41,958: INFO: common: json file saved at: scores.json]
+[2025-01-26 00:17:41,959: INFO: stage_03_model_trainer: Logging metrics to MLflow...]
+[2025-01-26 00:17:42,380: INFO: stage_03_model_trainer: Evaluation run completed and logged successfully.]
+[2025-01-26 00:17:42,381: INFO: stage_03_model_trainer: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-01-26 00:28:15,748: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-26 00:28:15,750: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-26 00:28:19,323: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation started <<<<<<]
+[2025-01-26 00:28:19,324: INFO: stage_04_model_evaluation: Loading evaluation configuration...]
+[2025-01-26 00:28:19,326: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-26 00:28:19,331: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-26 00:28:19,333: INFO: common: created directory at: artifacts]
+[2025-01-26 00:28:20,073: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-26 00:28:20,083: INFO: helpers: Accessing as Annmary777]
+[2025-01-26 00:28:20,769: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Annmary777/Fall-Detection "HTTP/1.1 200 OK"]
+[2025-01-26 00:28:21,461: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-26 00:28:21,463: INFO: helpers: Initialized MLflow to track repo "Annmary777/Fall-Detection"]
+[2025-01-26 00:28:21,465: INFO: helpers: Repository Annmary777/Fall-Detection initialized!]
+[2025-01-26 00:28:21,465: INFO: stage_04_model_evaluation: Running evaluation...]
+[2025-01-26 00:30:01,578: INFO: common: json file saved at: scores.json]
+[2025-01-26 00:30:01,579: INFO: stage_04_model_evaluation: Logging metrics to MLflow...]
+[2025-01-26 00:30:04,795: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-01-26 00:30:05,958: INFO: builder_impl: Assets written to: C:\Users\ANNMAR~1\AppData\Local\Temp\tmpbmt1dmks\model\data\model\assets]
+[2025-01-26 00:35:38,809: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-26 00:35:38,810: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-26 00:35:41,991: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation started <<<<<<]
+[2025-01-26 00:35:41,991: INFO: stage_04_model_evaluation: Loading evaluation configuration...]
+[2025-01-26 00:35:41,994: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-26 00:35:41,995: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-26 00:35:41,996: INFO: common: created directory at: artifacts]
+[2025-01-26 00:35:42,689: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-26 00:35:42,694: INFO: helpers: Accessing as Annmary777]
+[2025-01-26 00:35:43,405: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Annmary777/Fall-Detection "HTTP/1.1 200 OK"]
+[2025-01-26 00:35:44,053: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-26 00:35:44,056: INFO: helpers: Initialized MLflow to track repo "Annmary777/Fall-Detection"]
+[2025-01-26 00:35:44,058: INFO: helpers: Repository Annmary777/Fall-Detection initialized!]
+[2025-01-26 00:35:44,059: INFO: stage_04_model_evaluation: Starting MLflow run...]
+[2025-01-26 00:35:44,972: INFO: stage_04_model_evaluation: Logging evaluation parameters...]
+[2025-01-26 00:35:45,746: INFO: stage_04_model_evaluation: Running evaluation...]
+[2025-01-26 00:37:31,426: INFO: common: json file saved at: scores.json]
+[2025-01-26 00:37:31,427: INFO: stage_04_model_evaluation: Evaluation results: None]
+[2025-01-26 00:37:31,427: INFO: stage_04_model_evaluation: Logging metrics to MLflow...]
+[2025-01-26 00:37:31,883: INFO: stage_04_model_evaluation: Evaluation run completed and logged successfully.]
+[2025-01-26 00:37:31,884: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x]
+[2025-01-26 00:41:07,448: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-26 00:41:07,449: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-26 00:41:09,406: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation started <<<<<<]
+[2025-01-26 00:41:09,407: INFO: stage_04_model_evaluation: Loading evaluation configuration...]
+[2025-01-26 00:41:09,409: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-26 00:41:09,411: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-26 00:41:09,411: INFO: common: created directory at: artifacts]
+[2025-01-26 00:41:10,342: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-26 00:41:10,346: INFO: helpers: Accessing as Annmary777]
+[2025-01-26 00:41:11,126: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Annmary777/Fall-Detection "HTTP/1.1 200 OK"]
+[2025-01-26 00:41:11,758: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-26 00:41:11,761: INFO: helpers: Initialized MLflow to track repo "Annmary777/Fall-Detection"]
+[2025-01-26 00:41:11,763: INFO: helpers: Repository Annmary777/Fall-Detection initialized!]
+[2025-01-26 00:41:11,763: INFO: stage_04_model_evaluation: Starting MLflow run...]
+[2025-01-26 00:41:13,234: INFO: stage_04_model_evaluation: Logging evaluation parameters...]
+[2025-01-26 00:41:14,167: INFO: stage_04_model_evaluation: Running evaluation...]
+[2025-01-26 00:43:09,743: INFO: common: json file saved at: scores.json]
+[2025-01-26 00:43:09,747: INFO: stage_04_model_evaluation: Evaluation results: None]
+[2025-01-26 00:43:09,747: INFO: stage_04_model_evaluation: Logging metrics to MLflow...]
+[2025-01-26 00:43:10,245: INFO: stage_04_model_evaluation: Evaluation run completed and logged successfully.]
+[2025-01-26 00:43:10,246: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x]
+[2025-01-26 00:45:52,450: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-26 00:45:52,451: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-26 00:45:55,546: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation started <<<<<<]
+[2025-01-26 00:45:55,547: INFO: stage_04_model_evaluation: Loading evaluation configuration...]
+[2025-01-26 00:45:55,550: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-26 00:45:55,552: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-26 00:45:55,552: INFO: common: created directory at: artifacts]
+[2025-01-26 00:45:56,387: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-26 00:45:56,391: INFO: helpers: Accessing as Annmary777]
+[2025-01-26 00:45:57,068: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Annmary777/Fall-Detection "HTTP/1.1 200 OK"]
+[2025-01-26 00:45:57,790: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-26 00:45:57,797: INFO: helpers: Initialized MLflow to track repo "Annmary777/Fall-Detection"]
+[2025-01-26 00:45:57,799: INFO: helpers: Repository Annmary777/Fall-Detection initialized!]
+[2025-01-26 00:45:57,799: INFO: stage_04_model_evaluation: Running evaluation...]
+[2025-01-26 00:47:56,000: INFO: common: json file saved at: scores.json]
+[2025-01-26 00:47:56,001: INFO: stage_04_model_evaluation: Logging metrics to MLflow...]
+[2025-01-26 00:47:59,191: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2025-01-26 00:48:00,373: INFO: builder_impl: Assets written to: C:\Users\ANNMAR~1\AppData\Local\Temp\tmpsuf10yre\model\data\model\assets]
+[2025-01-26 10:21:10,322: WARNING: connectionpool: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))': /Annmary777/Fall-Detection.mlflow/api/2.0/mlflow-artifacts/artifacts/cb8cc9ad8f1c4f45a1723c05141b706c/3955659540a849b5b095fe67118ab0a3/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-01-26 10:21:14,407: WARNING: connectionpool: Retrying (Retry(total=3, connect=4, read=4, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002B1E8DA2850>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /Annmary777/Fall-Detection.mlflow/api/2.0/mlflow-artifacts/artifacts/cb8cc9ad8f1c4f45a1723c05141b706c/3955659540a849b5b095fe67118ab0a3/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-01-26 10:21:22,429: WARNING: connectionpool: Retrying (Retry(total=2, connect=3, read=4, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002B1E8D991F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /Annmary777/Fall-Detection.mlflow/api/2.0/mlflow-artifacts/artifacts/cb8cc9ad8f1c4f45a1723c05141b706c/3955659540a849b5b095fe67118ab0a3/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-01-26 10:21:38,857: WARNING: connectionpool: Retrying (Retry(total=1, connect=3, read=4, redirect=5, status=5)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1135)'))': /Annmary777/Fall-Detection.mlflow/api/2.0/mlflow-artifacts/artifacts/cb8cc9ad8f1c4f45a1723c05141b706c/3955659540a849b5b095fe67118ab0a3/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-01-26 10:24:12,405: WARNING: connectionpool: Retrying (Retry(total=0, connect=3, read=3, redirect=5, status=5)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))': /Annmary777/Fall-Detection.mlflow/api/2.0/mlflow-artifacts/artifacts/cb8cc9ad8f1c4f45a1723c05141b706c/3955659540a849b5b095fe67118ab0a3/artifacts/model/data/model/variables/variables.data-00000-of-00001]
+[2025-01-26 10:42:59,970: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-26 10:42:59,971: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-26 10:48:58,231: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-26 10:48:58,233: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-26 11:01:31,252: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-26 11:01:31,253: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-26 11:01:34,093: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation started <<<<<<]
+[2025-01-26 11:01:34,093: INFO: stage_04_model_evaluation: Loading evaluation configuration...]
+[2025-01-26 11:01:34,096: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-26 11:01:34,098: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-26 11:01:34,099: INFO: common: created directory at: artifacts]
+[2025-01-26 11:01:35,166: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-26 11:01:35,173: INFO: helpers: Accessing as Annmary777]
+[2025-01-26 11:01:35,924: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Annmary777/Fall-Detection "HTTP/1.1 200 OK"]
+[2025-01-26 11:01:36,612: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-26 11:01:36,619: INFO: helpers: Initialized MLflow to track repo "Annmary777/Fall-Detection"]
+[2025-01-26 11:01:36,621: INFO: helpers: Repository Annmary777/Fall-Detection initialized!]
+[2025-01-26 11:01:36,621: INFO: stage_04_model_evaluation: Starting MLflow run...]
+[2025-01-26 11:01:37,478: INFO: stage_04_model_evaluation: Logging evaluation parameters...]
+[2025-01-26 11:01:38,296: INFO: stage_04_model_evaluation: Running evaluation...]
+[2025-01-26 11:03:32,940: INFO: common: json file saved at: scores.json]
+[2025-01-26 11:03:32,942: INFO: stage_04_model_evaluation: Evaluation results: None]
+[2025-01-26 11:03:32,942: INFO: stage_04_model_evaluation: Logging metrics to MLflow...]
+[2025-01-26 11:03:32,942: INFO: stage_04_model_evaluation: Evaluation run completed and logged successfully.]
+[2025-01-26 11:03:33,349: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x]
+[2025-01-26 11:28:26,765: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-26 11:28:26,766: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-26 11:28:29,534: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation started <<<<<<]
+[2025-01-26 11:28:29,535: INFO: stage_04_model_evaluation: Loading evaluation configuration...]
+[2025-01-26 11:28:29,538: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-26 11:28:29,542: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-26 11:28:29,542: INFO: common: created directory at: artifacts]
+[2025-01-26 11:28:30,609: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-26 11:28:30,626: INFO: helpers: Accessing as Annmary777]
+[2025-01-26 11:28:31,465: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Annmary777/Fall-Detection "HTTP/1.1 200 OK"]
+[2025-01-26 11:28:32,160: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-26 11:28:32,164: INFO: helpers: Initialized MLflow to track repo "Annmary777/Fall-Detection"]
+[2025-01-26 11:28:32,166: INFO: helpers: Repository Annmary777/Fall-Detection initialized!]
+[2025-01-26 11:28:32,167: INFO: stage_04_model_evaluation: Starting MLflow run...]
+[2025-01-26 11:28:33,168: INFO: stage_04_model_evaluation: Logging evaluation parameters...]
+[2025-01-26 11:28:35,318: INFO: stage_04_model_evaluation: Running evaluation...]
+[2025-01-26 11:30:30,021: INFO: common: json file saved at: scores.json]
+[2025-01-26 11:30:30,021: INFO: stage_04_model_evaluation: Evaluation results: None]
+[2025-01-26 11:30:30,022: INFO: stage_04_model_evaluation: Logging metrics from evaluation results...]
+[2025-01-26 11:30:30,022: INFO: stage_04_model_evaluation: Logging metrics from scores.json...]
+[2025-01-26 11:30:30,436: INFO: stage_04_model_evaluation: Logged metric from scores.json: loss = 1.1703665256500244]
+[2025-01-26 11:30:30,809: INFO: stage_04_model_evaluation: Logged metric from scores.json: accuracy = 0.8665077686309814]
+[2025-01-26 11:30:31,266: INFO: stage_04_model_evaluation: Evaluation run completed and logged successfully.]
+[2025-01-26 11:30:31,267: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x]
+[2025-01-26 11:37:27,780: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-26 11:37:27,780: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-26 11:37:30,071: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation started <<<<<<]
+[2025-01-26 11:37:30,072: INFO: stage_04_model_evaluation: Loading evaluation configuration...]
+[2025-01-26 11:37:30,074: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-26 11:37:30,076: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-26 11:37:30,076: INFO: common: created directory at: artifacts]
+[2025-01-26 11:37:30,822: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-26 11:37:30,829: INFO: helpers: Accessing as Annmary777]
+[2025-01-26 11:37:31,808: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/Annmary777/Fall-Detection "HTTP/1.1 200 OK"]
+[2025-01-26 11:37:32,732: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2025-01-26 11:37:32,736: INFO: helpers: Initialized MLflow to track repo "Annmary777/Fall-Detection"]
+[2025-01-26 11:37:32,737: INFO: helpers: Repository Annmary777/Fall-Detection initialized!]
+[2025-01-26 11:37:32,738: INFO: stage_04_model_evaluation: Starting MLflow run...]
+[2025-01-26 11:37:33,681: INFO: stage_04_model_evaluation: Logging evaluation parameters...]
+[2025-01-26 11:37:34,564: INFO: stage_04_model_evaluation: Running evaluation...]
+[2025-01-26 11:39:30,202: INFO: common: json file saved at: scores.json]
+[2025-01-26 11:39:30,203: INFO: stage_04_model_evaluation: Evaluation results: None]
+[2025-01-26 11:39:30,203: INFO: stage_04_model_evaluation: Logging metrics from evaluation results...]
+[2025-01-26 11:39:30,204: INFO: stage_04_model_evaluation: Logging metrics from scores.json...]
+[2025-01-26 11:39:30,730: INFO: stage_04_model_evaluation: Logged metric from scores.json: loss = 1.1703665256500244]
+[2025-01-26 11:39:31,090: INFO: stage_04_model_evaluation: Logged metric from scores.json: accuracy = 0.8665077686309814]
+[2025-01-26 11:39:31,091: INFO: stage_04_model_evaluation: Logging metrics from incorrect_predictions.json...]
+[2025-01-26 11:39:31,471: INFO: stage_04_model_evaluation: Logged number of incorrect predictions: 6]
+[2025-01-26 11:39:34,324: INFO: stage_04_model_evaluation: Evaluation run completed and logged successfully.]
+[2025-01-26 11:39:34,325: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x]

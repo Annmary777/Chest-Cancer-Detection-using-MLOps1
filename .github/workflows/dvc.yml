@@ -1,0 +1,46 @@
+name: DVC Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  run_dvc_pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+
+    - name: Install dependencies
+      run: |
+        pip install --upgrade pip
+        pip install dvc
+        # Also install any packages required by your pipeline
+        pip install -r requirements.txt
+
+    - name: Configure DVC remote
+      run: |
+        dvc remote modify origin --local auth basic
+        dvc remote modify origin --local user ${{ secrets.DAGSHUB_USER }}
+        dvc remote modify origin --local password ${{ secrets.DAGSHUB_TOKEN }}
+
+    - name: Pull data from DVC
+      run: |
+        dvc pull -f
+
+    - name: Reproduce pipeline
+      run: |
+        dvc repro
+
+    - name: Push DVC updates
+      if: always()
+      run: |
+        dvc push -f
