@@ -17,4 +17,6 @@ scipy
 Flask
 Flask-Cors
 -e .
+dagshub
+
 
