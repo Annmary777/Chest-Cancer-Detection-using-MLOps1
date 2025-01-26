@@ -5,16 +5,12 @@ from zipfile import ZipFile
 from pathlib import Path
 import urllib.request as request
 import time
-import yaml
-import dagshub
-
-# Initialize MLflow with DagsHub
-dagshub.init(repo_owner='Annmary777', repo_name='Chest-Cancer-Detection-using-MLOps1', mlflow=True)
 
 # Add the `src` directory to the Python path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 print("Python Path:", sys.path)  # Print Python's import path for debugging
 
+# Ensure the required modules are imported correctly
 from box.exceptions import BoxValueError
 from ChestCancerClassifier.entity.config_entity import TrainingConfig  # Import the necessary config entity
 
@@ -82,32 +78,34 @@ class Training:
         self.steps_per_epoch = self.train_generator.samples // self.train_generator.batch_size
         self.validation_steps = self.valid_generator.samples // self.valid_generator.batch_size
 
-        # Start MLflow run
-        with dagshub.mlflow.start_run():
-            self.model.fit(
-                self.train_generator,
-                epochs=self.config.params_epochs,
-                steps_per_epoch=self.steps_per_epoch,
-                validation_steps=self.validation_steps,
-                validation_data=self.valid_generator
-            )
+        self.model.fit(
+            self.train_generator,
+            epochs=self.config.params_epochs,
+            steps_per_epoch=self.steps_per_epoch,
+            validation_steps=self.validation_steps,
+            validation_data=self.valid_generator
+        )
 
-            # Log model with MLflow
-            dagshub.mlflow.log_model(self.model, "model")
+        self.save_model(
+            path=self.config.trained_model_path,
+            model=self.model
+        )
 
-            self.save_model(
-                path=self.config.trained_model_path,
-                model=self.model
-            )
 
 if __name__ == "__main__":
-    # Load configuration
-    config_path = Path("config/config.yaml")
-    with open(config_path, 'r') as f:
-        config_dict = yaml.safe_load(f)
-    
+    # Example usage (assuming config is properly passed)
     try:
-        config = TrainingConfig(**config_dict['training'])
+        # Assume `config` is created from the ConfigurationManager in the pipeline
+        config = TrainingConfig(
+            root_dir="artifacts",
+            trained_model_path=Path("artifacts/model.h5"),
+            updated_base_model_path=Path("artifacts/base_model.h5"),
+            training_data=Path("data"),
+            params_epochs=10,
+            params_batch_size=32,
+            params_is_augmentation=True,
+            params_image_size=[224, 224, 3]
+        )
 
         trainer = Training(config=config)
         trainer.get_base_model()
