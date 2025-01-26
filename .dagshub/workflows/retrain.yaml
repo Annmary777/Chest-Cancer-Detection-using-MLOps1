@@ -3,10 +3,10 @@ name: Retrain Model
 on:
   push:
     branches:
-      - main  # Trigger on pushes to the main branch
+      - main
   pull_request:
     branches:
-      - main  # Trigger on pull requests targeting the main branch
+      - main
 
 jobs:
   retrain:
@@ -18,7 +18,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.8"  # Adjust as needed
+          python-version: "3.8"
 
       - name: Install dependencies
         run: |
@@ -27,9 +27,7 @@ jobs:
           pip install dvc[all] mlflow dagshub
 
       - name: Pull DVC data
-        run: |
-          dvc pull
+        run: dvc pull
 
       - name: Trigger Retraining
-        run: |
-          dvc repro feedback_retraining
+        run: dvc repro feedback_retraining

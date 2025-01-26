@@ -5,13 +5,13 @@ import logging
 # Configure logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s: %(message)s")
 
-# Define constants
+# Constants
 INCORRECT_PREDICTIONS_FILE = "incorrect_predictions.json"
 INCORRECT_PREDICTIONS_THRESHOLD = 5
-RETRAINING_STAGE = "feedback_retraining"  # DVC stage name for retraining
+RETRAINING_STAGE = "feedback_retraining"  # Name of the DVC stage for retraining
 
 def main():
-    # Check if the file exists
+    # Check if the incorrect_predictions.json file exists
     try:
         with open(INCORRECT_PREDICTIONS_FILE, "r") as f:
             incorrect_predictions = json.load(f)
