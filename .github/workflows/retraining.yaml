@@ -23,8 +23,13 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          pip install dvc[all] mlflow
+          pip install dvc[all] mlflow dagshub
+
+      - name: Configure DVC remote
+        run: |
+          dvc remote modify origin --local auth basic
+          dvc remote modify origin --local user ${{ secrets.DAGSHUB_USERNAME }}
+          dvc remote modify origin --local password ${{ secrets.DAGSHUB_ACCESS_TOKEN }}
 
       - name: Pull DVC data
         run: dvc pull
@@ -37,18 +42,22 @@ import json
 with open('incorrect_predictions.json', 'r') as f:
     data = json.load(f)
 if len(data) > 5:
-    print('::set-output name=trigger_retrain::true')
+    with open('${GITHUB_ENV}', 'a') as env_file:
+        env_file.write('TRIGGER_RETRAIN=true\n')
 else:
-    print('::set-output name=trigger_retrain::false')
+    with open('${GITHUB_ENV}', 'a') as env_file:
+        env_file.write('TRIGGER_RETRAIN=false\n')
 "
         shell: bash
 
       - name: Trigger Retraining
-        if: steps.check_threshold.outputs.trigger_retrain == 'true'
+        if: env.TRIGGER_RETRAIN == 'true'
         run: dvc repro feedback_retraining
 
       - name: Push Retrained Artifacts
-        if: steps.check_threshold.outputs.trigger_retrain == 'true'
+        if: env.TRIGGER_RETRAIN == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
